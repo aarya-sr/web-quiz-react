@@ -1,7 +1,7 @@
-.hero{
+/* .hero{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(73, 73, 249);
+    background-color: rgb(5, 5, 48);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,10 +19,70 @@
     font-size: 60px;
     font-weight: 600;
     color: whitesmoke;
+    letter-spacing: 1px;
 }
 
 .hero-text h3{
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
-}
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: 18px;
+}  */
+
+
+
+
+
+/* @media screen and (max-width:768px){
+    .hero{
+        padding-top: 50%;
+        height: 80vh;
+    }
+} */
+
+
+.hero.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #f7f9fc;
+    padding-top: 120px; 
+      }
+      
+  
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text h3 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background-color: #007bfc;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #005ac1; 
+  }
+   

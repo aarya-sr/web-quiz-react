@@ -1,0 +1,58 @@
+.cta-section {
+    background-color: #7c3aed; /* vibrant purple */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .cta-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .cta-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .cta-subtext {
+    font-size: 1.1rem;
+    margin-bottom: 32px;
+    color: #e0e0e0;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .btn-primary {
+    background-color: #38bdf8;
+    color: #000;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0ea5e9;
+  }
+  
+  .btn-secondary {
+    background-color: #a78bfa;
+    color: #000;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #8b5cf6;
+  }
+  

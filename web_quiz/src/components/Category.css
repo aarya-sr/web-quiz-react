@@ -1,0 +1,38 @@
+.category {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .course-card {
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+  }
+  
+  .course-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-card button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bfc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .course-card button:hover {
+    background-color: #005ac1;
+  }
+   

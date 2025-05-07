@@ -10,7 +10,12 @@
 }
 body{
   background-color: rgb(240, 232, 232);
-}
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+  }
+  
+
 a{
   text-decoration: none;
   color: inherit;
@@ -23,13 +28,18 @@ a{
 }
 
 .btn{
-  background-color: rgb(96, 96, 245);
+  background-color:#007bfc;
   color: black;
   padding: 14px 25px;
   font-size: 16px;
-  border-radius: 30px;
+  border-radius: 5px;
   cursor: pointer;
   border: 0;
   outline: 0;
+  margin: 30px 10px 0 0 ;
+  box-shadow: 0px 24px 36px -11px rgba(0 0 0/9%);
 }
 
+.btn:hover {
+  background-color: #005ac1;
+}

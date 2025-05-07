@@ -1,0 +1,109 @@
+.testpage-container {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .testpage-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2563eb;
+    margin-bottom: 10px;
+  }
+  
+  .testpage-description {
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .test-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .test-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  }
+  
+  .test-card-title {
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 1rem;
+  }
+  
+  .tag {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  
+  .tag-green {
+    background-color: #d1fae5;
+    color: #065f46;
+  }
+  
+  .tag-blue {
+    background-color: #dbeafe;
+    color: #1e40af;
+  }
+  
+  .tag-yellow {
+    background-color: #fef9c3;
+    color: #92400e;
+  }
+  
+  .tag-orange {
+    background-color: #ffedd5;
+    color: #9a3412;
+  }
+  
+  .tag-red {
+    background-color: #fee2e2;
+    color: #991b1b;
+  }
+  
+  .test-card-description,
+  .test-card-questions {
+    font-size: 0.875rem;
+    color: #555;
+    margin: 6px 0;
+  }
+  
+  .start-level-btn,
+  .view-tests-btn {
+    background: none;
+    border: none;
+    color: #2563eb;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+    margin-top: 10px;
+  }
+  
+  .start-level-btn:hover,
+  .view-tests-btn:hover {
+    text-decoration: none;
+  }
+
+  .test-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .test-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
